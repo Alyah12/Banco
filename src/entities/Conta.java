@@ -51,10 +51,11 @@ public class Conta {
 
     @Override
     public String toString() {
-        return "Conta{" +
-                "number=" + number +
-                ", nome='" + name + '\'' +
-                ", balance=" + balance +
-                '}';
+        return "Conta"
+                + number
+                + ", Holder: "
+                + name
+                + ", Balance: $ "
+                + String.format("%.2f", balance);
     }
 }
