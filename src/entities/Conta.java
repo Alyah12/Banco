@@ -29,10 +29,6 @@ public class Conta {
         return name;
     }
 
-    public void setNome(String name) {
-        this.name = name;
-    }
-
     public double getBalance() {
         return balance;
     }
